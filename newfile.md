@@ -11,27 +11,28 @@
  7. [ Questions. ](#questions)  
  8. [ Deployment Location. ](#link)  
  9. [ Screenshot. ](#screenshot)  
-<a name='installation'></a>
+
+ <a name='installation'></a>
  # Installation 
- Installation Text  
-<a name='usage'></a>
+ Installation Text
+ <a name='usage'></a>
  # Usage 
- Usage Text  
-<a name='license'></a>
+Usage Text
+ <a name='license'></a>
  # License 
- License Text  
-<a name='contribution'></a>
+License Text
+ <a name='contribution'></a>
  # Contribution Guidelines 
- Guidelines Text  
-<a name='tests'></a>
+Guidelines Text
+ <a name='tests'></a>
  # Tests 
- Test Text  
-<a name='tests'></a>
- # Tests 
- Test Text  
-<a name='link'></a>
+Tests Text
+ <a name='questions'></a>
+ # Questions 
+Questions Text
+ <a name='link'></a>
  # Deployment Location 
- URL  
-<a name='screenshot'></a>
+URL:
+ <a name='screenshot'></a>
  # Screenshot: 
- ![Screenshot](https://github.com/sean-mcelwain/weather_dashboard/blob/main/assets/images/screenshot.jpg)  
+![Screenshot](https://github.com/sean-mcelwain/weather_dashboard/blob/main/assets/images/screenshot.jpg)  
