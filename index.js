@@ -80,6 +80,7 @@ let descriptionText = answer.description_text;
 let installationText = answer.installation_text;
 let usageText = answer.usage_text;
 let licenseText;
+let badge;
 
     let year = answer.year;
     let copyrightHolder = answer.copyrightHolder;
@@ -105,12 +106,15 @@ let licenseText;
 
     if (answer.license_text == "MIT License"){
       licenseText = MIT_license;
+      badge = "![BADGE](https://img.shields.io/badge/license-MIT-green)";
     }
     if (answer.license_text == "Apache License 2.0"){
       licenseText = apacheLicense;
+      badge = "![BADGE](https://img.shields.io/badge/license-Apache-blue)";
     }
     if (answer.license_text == "BSD License (3-Clause)"){
       licenseText = BSD_license;
+      badge = "![BADGE](https://img.shields.io/badge/license-BSD-green)";
     };
     
 let contributionText = answer.contribution_text;
@@ -121,7 +125,7 @@ let emailText = "Contact Me: " + answer.email_text + ".  \n";
 
 // Creates variables for each section of the ReadMe and assigns them string values
 
-const title = "# "+ projectTitle;
+const title = "# "+ projectTitle + badge;
 const description = "\n<a name='description'></a>\n ## Description \n" + descriptionText;
 const tableOfContents = 
 "\n## Table of Contents  \n"
