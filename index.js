@@ -89,14 +89,14 @@ let badge;
     + "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. \n"
     + "THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.";
 
-    const apacheLicense = "Copyright © " + year +" "+ copyrightHolder + ". \n"
+    const apacheLicense = "Apache License 2.0 \n Copyright © " + year +" "+ copyrightHolder + ". \n"
     + "Licensed under the Apache License, Version 2.0 (the 'License'); \n"
     + "you may not use this file except in compliance with the License. \n"
     + "You may obtain a copy of the License at: \n http://www.apache.org/licenses/LICENSE-2.0 \n"
     + "Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an 'AS IS' BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. \n"
     + "See the License for the specific language governing permissions and limitations under the License.";
 
-    const BSD_license = "Copyright © " + year +" "+ copyrightHolder + ".\n"
+    const BSD_license = "BSD License (3-Clause) \n Copyright © " + year +" "+ copyrightHolder + ".\n"
     + "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: \n"
     + " 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n"
     + " 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n"
@@ -105,15 +105,15 @@ let badge;
 
     if (answer.license_text == "MIT License"){
       licenseText = MIT_license;
-      badge = "-> ![BADGE](https://img.shields.io/badge/license-MIT-green) ->";
+      badge = " ![BADGE](https://img.shields.io/badge/license-MIT-green) ";
     }
     if (answer.license_text == "Apache License 2.0"){
       licenseText = apacheLicense;
-      badge = "-> ![BADGE](https://img.shields.io/badge/license-Apache-blue) ->";
+      badge = " ![BADGE](https://img.shields.io/badge/license-Apache-blue) ";
     }
     if (answer.license_text == "BSD License (3-Clause)"){
       licenseText = BSD_license;
-      badge = "-> ![BADGE](https://img.shields.io/badge/license-BSD-green) ->";
+      badge = " ![BADGE](https://img.shields.io/badge/license-BSD-green) ";
     };
     
 let contributionText = answer.contribution_text;
@@ -124,7 +124,7 @@ let emailText = "Contact Me: " + answer.email_text + ".  \n";
 
 // Creates variables for each section of the ReadMe and assigns them string values
 
-const title = "# "+ projectTitle + badge;
+const title = "# "+ projectTitle + " " + badge;
 const description = "\n<a name='description'></a>\n ## Description \n" + descriptionText;
 const tableOfContents = 
 "\n## Table of Contents  \n"
