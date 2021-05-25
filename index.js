@@ -134,9 +134,7 @@ const tableOfContents =
 +" 4. [ License. ](#license)  \n"
 +" 5. [ Contribution Guidelines. ](#contribution)  \n"
 +" 6. [ Tests. ](#tests)  \n"
-+" 7. [ Questions. ](#questions)  \n"
-+" 8. [ Deployment Location. ](#link)  \n" 
-+" 9. [ Screenshot. ](#screenshot)  \n";
++" 7. [ Questions. ](#questions)  \n";
 
 const installation = "\n <a name='installation'></a>\n ## Installation \n " + installationText;
 const usage = "\n <a name='usage'></a>\n ## Usage \n" + usageText;

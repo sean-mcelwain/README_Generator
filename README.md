@@ -10,8 +10,6 @@ This utility uses command-line (node.js based) javascript, specifically node's f
  5. [ Contribution Guidelines. ](#contribution)  
  6. [ Tests. ](#tests)  
  7. [ Questions. ](#questions)  
- 8. [ Deployment Location. ](#link)  
- 9. [ Screenshot. ](#screenshot)  
 
  <a name='installation'></a>
  ## Installation 
@@ -37,4 +35,4 @@ No test are currently deployed for this project.
 GitHub Profile: https://github.com/sean-mcelwain.  
 Contact Me: sean.mcelwain.KUBootcamp@gmail.com.  
  
-For any question regarding this project, my preferred method of communication is via email.  
+For any question regarding this project, my preferred method of communication is via email. 
