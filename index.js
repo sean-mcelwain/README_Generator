@@ -71,7 +71,6 @@ inquirer.prompt([
 
 ])
 .then((answer) => {
-  console.log(answer.project_title);
 
 // Sets variables for the text sections in the ReadMe file and assigns them the input value
 
@@ -106,15 +105,15 @@ let badge;
 
     if (answer.license_text == "MIT License"){
       licenseText = MIT_license;
-      badge = "![BADGE](https://img.shields.io/badge/license-MIT-green)";
+      badge = "-> ![BADGE](https://img.shields.io/badge/license-MIT-green) ->";
     }
     if (answer.license_text == "Apache License 2.0"){
       licenseText = apacheLicense;
-      badge = "![BADGE](https://img.shields.io/badge/license-Apache-blue)";
+      badge = "-> ![BADGE](https://img.shields.io/badge/license-Apache-blue) ->";
     }
     if (answer.license_text == "BSD License (3-Clause)"){
       licenseText = BSD_license;
-      badge = "![BADGE](https://img.shields.io/badge/license-BSD-green)";
+      badge = "-> ![BADGE](https://img.shields.io/badge/license-BSD-green) ->";
     };
     
 let contributionText = answer.contribution_text;
@@ -161,14 +160,3 @@ function writeToFile(fileName, data) {
 
 writeToFile();
 });
-
-
-
-// TODO: Create a function to initialize app
-function init() {
-
-}
-
-// Function call to initialize app
-init();
-
