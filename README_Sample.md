@@ -2,10 +2,6 @@
 <a name='description'></a>
  ## Description 
 This utility uses command-line (node.js based) javascript, specifically node's file system and inquirer packages, to generate a README file based on user input.
-
-## Video
-![YOUTUBE](https://youtu.be/RvFRsq79Oiw) 
-
 ## Table of Contents  
  1. [ Description. ](#description)  
  2. [ Installation. ](#installation)  
